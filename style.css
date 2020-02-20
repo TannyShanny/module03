@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+#wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list {
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-item + .nav-item {
+    padding-left: 15px;
+}
+
+.cards {
+    letter-spacing: -0.34em;
+    margin: 0 -30px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    padding: 0 30px 30px;
+    letter-spacing: 0;
+}
